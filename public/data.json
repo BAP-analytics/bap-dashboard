@@ -1,19 +1,19 @@
 {
   "cards": {
-    "real_mrr": 11141.26,
-    "at_risk_mrr": 3466.0,
+    "real_mrr": 11688.26,
+    "at_risk_mrr": 3665.0,
     "lost_mrr": 8849.0,
-    "arr": 133695.12,
-    "paying_active": 68,
+    "arr": 140259.12,
+    "paying_active": 71,
     "free_active": 149,
-    "cancelling": 16,
+    "cancelling": 17,
     "churned": 60,
-    "total_active": 217
+    "total_active": 220
   },
   "breakdown": {
-    "Paying Active": 68,
+    "Paying Active": 71,
     "Free Active": 149,
-    "Cancelling": 16,
+    "Cancelling": 17,
     "Churned": 59,
     "Free Churned": 1
   },
@@ -30,11 +30,11 @@
     "survival": [
       99.3,
       99.3,
-      94.4,
-      82.5,
-      68.5,
-      62.9,
-      59.4
+      94.6,
+      83.0,
+      69.4,
+      63.9,
+      60.5
     ],
     "median": null
   },
@@ -46,14 +46,14 @@
   },
   "churn_by_source": {
     "direct": {
-      "total": 47,
+      "total": 48,
       "churned": 17,
-      "rate": 36.2
+      "rate": 35.4
     },
     "stan.store": {
-      "total": 34,
+      "total": 35,
       "churned": 12,
-      "rate": 35.3
+      "rate": 34.3
     },
     "unknown": {
       "total": 23,
@@ -61,9 +61,9 @@
       "rate": 60.9
     },
     "skool (internal link)": {
-      "total": 14,
+      "total": 15,
       "churned": 5,
-      "rate": 35.7
+      "rate": 33.3
     },
     "skool (user profile page)": {
       "total": 6,
@@ -75,15 +75,15 @@
       "churned": 4,
       "rate": 80.0
     },
+    "linkedin.com": {
+      "total": 4,
+      "churned": 2,
+      "rate": 50.0
+    },
     "wl.co": {
       "total": 3,
       "churned": 0,
       "rate": 0.0
-    },
-    "linkedin.com": {
-      "total": 3,
-      "churned": 2,
-      "rate": 66.7
     },
     "tiktok.com": {
       "total": 2,
@@ -152,36 +152,25 @@
     },
     {
       "month": "2026-04",
-      "total": 23,
-      "active": 22,
+      "total": 27,
+      "active": 26,
       "churned": 1,
-      "retention": 95.7
+      "retention": 96.3
     }
   ],
   "engagement_dist": {
-    "0": 44,
+    "0": 45,
     "1-5": 20,
-    "6-20": 4,
+    "6-20": 6,
     "20+": 0
   },
   "risk_table": [
     {
-      "name": "Sarah Alaoudah",
-      "price": 149.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 63.4,
-      "tenure": 103,
-      "inactive_days": 18,
-      "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
-    },
-    {
       "name": "Saleh Abdulaziz",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 63.1,
-      "tenure": 30,
+      "churn_pct": 62.2,
+      "tenure": 31,
       "inactive_days": 0,
       "week_actions": 0,
       "cum_actions": 1,
@@ -191,31 +180,31 @@
       "name": "Abdullah Aseri",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 61.3,
-      "tenure": 43,
-      "inactive_days": 14,
+      "churn_pct": 61.5,
+      "tenure": 44,
+      "inactive_days": 15,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
     },
     {
-      "name": "Akmal Elham",
+      "name": "Omar Bourich",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 60.4,
-      "tenure": 26,
-      "inactive_days": 6,
+      "churn_pct": 61.4,
+      "tenure": 34,
+      "inactive_days": 15,
       "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
+      "cum_actions": 3,
+      "actions_30d": 1
     },
     {
       "name": "Razan Alowayed",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 60.1,
-      "tenure": 59,
-      "inactive_days": 59,
+      "churn_pct": 60.7,
+      "tenure": 60,
+      "inactive_days": 60,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
@@ -224,42 +213,86 @@
       "name": "Adel Ghaith",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 60.0,
-      "tenure": 36,
-      "inactive_days": 4,
+      "churn_pct": 60.5,
+      "tenure": 37,
+      "inactive_days": 5,
       "week_actions": 0,
       "cum_actions": 4,
       "actions_30d": 0
     },
     {
-      "name": "Omar Bourich",
+      "name": "Hassan Alameer",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 59.6,
-      "tenure": 33,
-      "inactive_days": 14,
+      "churn_pct": 60.2,
+      "tenure": 26,
+      "inactive_days": 1,
       "week_actions": 0,
-      "cum_actions": 3,
-      "actions_30d": 1
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
+      "name": "Abdulrahman Abusamra",
+      "price": 199.0,
+      "risk_tier": "HIGH",
+      "churn_pct": 60.2,
+      "tenure": 27,
+      "inactive_days": 2,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
+      "name": "Akmal Elham",
+      "price": 199.0,
+      "risk_tier": "HIGH",
+      "churn_pct": 60.2,
+      "tenure": 27,
+      "inactive_days": 0,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
     },
     {
       "name": "Sultan Alghamdi",
       "price": 149.0,
       "risk_tier": "HIGH",
-      "churn_pct": 59.2,
-      "tenure": 68,
-      "inactive_days": 42,
+      "churn_pct": 60.2,
+      "tenure": 69,
+      "inactive_days": 43,
       "week_actions": 0,
       "cum_actions": 2,
+      "actions_30d": 0
+    },
+    {
+      "name": "Kamal Ibrahim",
+      "price": 199.0,
+      "risk_tier": "HIGH",
+      "churn_pct": 59.4,
+      "tenure": 56,
+      "inactive_days": 20,
+      "week_actions": 0,
+      "cum_actions": 0,
       "actions_30d": 0
     },
     {
       "name": "Ahmed Ghanim",
       "price": 149.0,
       "risk_tier": "HIGH",
-      "churn_pct": 58.8,
-      "tenure": 54,
+      "churn_pct": 59.2,
+      "tenure": 55,
       "inactive_days": 0,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
+      "name": "Sarah Alajaji",
+      "price": 199.0,
+      "risk_tier": "HIGH",
+      "churn_pct": 59.0,
+      "tenure": 26,
+      "inactive_days": 17,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
@@ -268,8 +301,8 @@
       "name": "Fayez Ateyatalla",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 58.4,
-      "tenure": 26,
+      "churn_pct": 59.0,
+      "tenure": 27,
       "inactive_days": 0,
       "week_actions": 0,
       "cum_actions": 0,
@@ -279,20 +312,9 @@
       "name": "Varad Kshirsagar",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 58.4,
-      "tenure": 27,
-      "inactive_days": 27,
-      "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
-    },
-    {
-      "name": "Arif Haque",
-      "price": 199.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 58.4,
-      "tenure": 30,
-      "inactive_days": 11,
+      "churn_pct": 59.0,
+      "tenure": 28,
+      "inactive_days": 28,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
@@ -301,9 +323,9 @@
       "name": "Hamzah Patel",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 58.0,
-      "tenure": 20,
-      "inactive_days": 2,
+      "churn_pct": 58.4,
+      "tenure": 21,
+      "inactive_days": 3,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
@@ -312,64 +334,9 @@
       "name": "Fatimah Alramdan",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 58.0,
-      "tenure": 22,
-      "inactive_days": 1,
-      "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
-    },
-    {
-      "name": "Hassan Alameer",
-      "price": 199.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 58.0,
-      "tenure": 25,
+      "churn_pct": 58.4,
+      "tenure": 24,
       "inactive_days": 0,
-      "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
-    },
-    {
-      "name": "Abdulrahman Abusamra",
-      "price": 199.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 58.0,
-      "tenure": 26,
-      "inactive_days": 1,
-      "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
-    },
-    {
-      "name": "Kamal Ibrahim",
-      "price": 199.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 57.9,
-      "tenure": 55,
-      "inactive_days": 19,
-      "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
-    },
-    {
-      "name": "Omer Alsayed",
-      "price": 199.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 55.6,
-      "tenure": 22,
-      "inactive_days": 9,
-      "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
-    },
-    {
-      "name": "Sarah Alajaji",
-      "price": 199.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 55.6,
-      "tenure": 25,
-      "inactive_days": 16,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
@@ -378,108 +345,163 @@
       "name": "Mohanad Alzahrani",
       "price": 169.0,
       "risk_tier": "HIGH",
-      "churn_pct": 55.5,
-      "tenure": 64,
-      "inactive_days": 63,
+      "churn_pct": 57.7,
+      "tenure": 65,
+      "inactive_days": 64,
       "week_actions": 0,
       "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
+      "name": "Omer Alsayed",
+      "price": 199.0,
+      "risk_tier": "HIGH",
+      "churn_pct": 57.3,
+      "tenure": 23,
+      "inactive_days": 10,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
+      "name": "Ahmed Aldawsari",
+      "price": 199.0,
+      "risk_tier": "HIGH",
+      "churn_pct": 55.4,
+      "tenure": 46,
+      "inactive_days": 0,
+      "week_actions": 0,
+      "cum_actions": 6,
       "actions_30d": 0
     },
     {
       "name": "Mohamad Kassem Alsabbagh",
       "price": 149.0,
       "risk_tier": "HIGH",
-      "churn_pct": 54.9,
-      "tenure": 46,
-      "inactive_days": 0,
+      "churn_pct": 55.0,
+      "tenure": 47,
+      "inactive_days": 1,
       "week_actions": 0,
       "cum_actions": 2,
       "actions_30d": 1
     },
     {
-      "name": "Ahmed Aldawsari",
+      "name": "Haifa Alharthi",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 54.2,
-      "tenure": 45,
-      "inactive_days": 21,
-      "week_actions": 0,
-      "cum_actions": 6,
-      "actions_30d": 0
-    },
-    {
-      "name": "Ayman Almaafi",
-      "price": 199.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 53.8,
-      "tenure": 56,
-      "inactive_days": 1,
-      "week_actions": 0,
-      "cum_actions": 2,
+      "churn_pct": 53.3,
+      "tenure": 16,
+      "inactive_days": 2,
+      "week_actions": 1,
+      "cum_actions": 1,
       "actions_30d": 1
     },
     {
       "name": "Khurram Khan",
       "price": 169.0,
       "risk_tier": "HIGH",
-      "churn_pct": 51.6,
-      "tenure": 66,
-      "inactive_days": 6,
+      "churn_pct": 52.5,
+      "tenure": 67,
+      "inactive_days": 7,
       "week_actions": 0,
       "cum_actions": 16,
       "actions_30d": 0
     },
     {
-      "name": "Haifa Alharthi",
+      "name": "Ayman Almaafi",
       "price": 199.0,
       "risk_tier": "HIGH",
-      "churn_pct": 51.3,
-      "tenure": 15,
-      "inactive_days": 1,
-      "week_actions": 1,
-      "cum_actions": 1,
+      "churn_pct": 52.4,
+      "tenure": 57,
+      "inactive_days": 2,
+      "week_actions": 0,
+      "cum_actions": 2,
       "actions_30d": 1
+    },
+    {
+      "name": "Sarah Alaoudah",
+      "price": 149.0,
+      "risk_tier": "HIGH",
+      "churn_pct": 51.0,
+      "tenure": 104,
+      "inactive_days": 19,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
     },
     {
       "name": "Zainab Alotaibi",
       "price": 149.0,
-      "risk_tier": "HIGH",
-      "churn_pct": 50.9,
-      "tenure": 82,
-      "inactive_days": 17,
+      "risk_tier": "MEDIUM",
+      "churn_pct": 49.6,
+      "tenure": 83,
+      "inactive_days": 18,
       "week_actions": 0,
       "cum_actions": 4,
+      "actions_30d": 0
+    },
+    {
+      "name": "Abdulaziz Alshuraim",
+      "price": 199.0,
+      "risk_tier": "MEDIUM",
+      "churn_pct": 45.7,
+      "tenure": 28,
+      "inactive_days": 0,
+      "week_actions": 0,
+      "cum_actions": 1,
+      "actions_30d": 1
+    },
+    {
+      "name": "Jumanah Almutairi",
+      "price": 169.0,
+      "risk_tier": "MEDIUM",
+      "churn_pct": 45.7,
+      "tenure": 65,
+      "inactive_days": 3,
+      "week_actions": 0,
+      "cum_actions": 3,
       "actions_30d": 0
     },
     {
       "name": "Waleed Johar",
       "price": 199.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 48.6,
-      "tenure": 28,
+      "churn_pct": 45.5,
+      "tenure": 29,
       "inactive_days": 0,
       "week_actions": 0,
       "cum_actions": 3,
       "actions_30d": 3
     },
     {
+      "name": "Adam-Bilal Sayed",
+      "price": 149.0,
+      "risk_tier": "MEDIUM",
+      "churn_pct": 45.4,
+      "tenure": 70,
+      "inactive_days": 1,
+      "week_actions": 2,
+      "cum_actions": 19,
+      "actions_30d": 4
+    },
+    {
+      "name": "Saad Aludhailah",
+      "price": 199.0,
+      "risk_tier": "MEDIUM",
+      "churn_pct": 45.2,
+      "tenure": 8,
+      "inactive_days": 0,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
       "name": "Dhafer Alzulayq",
       "price": 199.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 47.6,
-      "tenure": 18,
-      "inactive_days": 6,
-      "week_actions": 0,
-      "cum_actions": 1,
-      "actions_30d": 1
-    },
-    {
-      "name": "Abdulaziz Alshuraim",
-      "price": 199.0,
-      "risk_tier": "MEDIUM",
-      "churn_pct": 46.6,
-      "tenure": 27,
-      "inactive_days": 0,
+      "churn_pct": 44.6,
+      "tenure": 19,
+      "inactive_days": 7,
       "week_actions": 0,
       "cum_actions": 1,
       "actions_30d": 1
@@ -488,51 +510,18 @@
       "name": "Arham N",
       "price": 149.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 44.9,
-      "tenure": 87,
-      "inactive_days": 2,
+      "churn_pct": 44.0,
+      "tenure": 88,
+      "inactive_days": 3,
       "week_actions": 0,
       "cum_actions": 1,
       "actions_30d": 0
     },
     {
-      "name": "Salahuddin Alyamani",
-      "price": 199.0,
+      "name": "Lujein Suliman",
+      "price": 150.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 44.4,
-      "tenure": 39,
-      "inactive_days": 0,
-      "week_actions": 1,
-      "cum_actions": 15,
-      "actions_30d": 11
-    },
-    {
-      "name": "Adam-Bilal Sayed",
-      "price": 149.0,
-      "risk_tier": "MEDIUM",
-      "churn_pct": 43.4,
-      "tenure": 69,
-      "inactive_days": 0,
-      "week_actions": 3,
-      "cum_actions": 19,
-      "actions_30d": 4
-    },
-    {
-      "name": "Jumanah Almutairi",
-      "price": 169.0,
-      "risk_tier": "MEDIUM",
-      "churn_pct": 42.7,
-      "tenure": 64,
-      "inactive_days": 2,
-      "week_actions": 0,
-      "cum_actions": 3,
-      "actions_30d": 0
-    },
-    {
-      "name": "Saad Aludhailah",
-      "price": 199.0,
-      "risk_tier": "MEDIUM",
-      "churn_pct": 42.6,
+      "churn_pct": 41.3,
       "tenure": 7,
       "inactive_days": 0,
       "week_actions": 0,
@@ -543,152 +532,163 @@
       "name": "Mohammed Al-Sufyani",
       "price": 199.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 38.7,
-      "tenure": 29,
-      "inactive_days": 11,
+      "churn_pct": 40.5,
+      "tenure": 30,
+      "inactive_days": 0,
       "week_actions": 0,
       "cum_actions": 4,
       "actions_30d": 4
     },
     {
-      "name": "Lujein Suliman",
-      "price": 150.0,
+      "name": "Muhammad Abbasi",
+      "price": 149.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 38.5,
-      "tenure": 6,
-      "inactive_days": 5,
+      "churn_pct": 40.5,
+      "tenure": 81,
+      "inactive_days": 14,
       "week_actions": 0,
-      "cum_actions": 0,
+      "cum_actions": 1,
       "actions_30d": 0
     },
     {
       "name": "Maarya Muhammad",
       "price": 149.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 38.1,
-      "tenure": 88,
-      "inactive_days": 0,
+      "churn_pct": 39.5,
+      "tenure": 89,
+      "inactive_days": 1,
       "week_actions": 0,
       "cum_actions": 7,
-      "actions_30d": 2
-    },
-    {
-      "name": "Muhammad Abbasi",
-      "price": 149.0,
-      "risk_tier": "MEDIUM",
-      "churn_pct": 38.0,
-      "tenure": 80,
-      "inactive_days": 13,
-      "week_actions": 0,
-      "cum_actions": 1,
       "actions_30d": 0
     },
     {
-      "name": "\u062d\u0633\u0627\u0646 \u0627\u0644\u0645\u0637\u064a\u0631\u064a",
+      "name": "Salahuddin Alyamani",
       "price": 199.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 35.2,
-      "tenure": 29,
+      "churn_pct": 39.4,
+      "tenure": 40,
       "inactive_days": 0,
       "week_actions": 1,
       "cum_actions": 15,
-      "actions_30d": 4
+      "actions_30d": 11
+    },
+    {
+      "name": "Adeel Mahmood",
+      "price": 169.0,
+      "risk_tier": "MEDIUM",
+      "churn_pct": 34.2,
+      "tenure": 66,
+      "inactive_days": 5,
+      "week_actions": 0,
+      "cum_actions": 1,
+      "actions_30d": 0
     },
     {
       "name": "Veysel Tutucu",
       "price": 199.0,
       "risk_tier": "MEDIUM",
       "churn_pct": 33.7,
-      "tenure": 10,
-      "inactive_days": 1,
+      "tenure": 11,
+      "inactive_days": 0,
       "week_actions": 0,
       "cum_actions": 1,
       "actions_30d": 1
     },
     {
-      "name": "Adeel Mahmood",
-      "price": 169.0,
+      "name": "\u062d\u0633\u0627\u0646 \u0627\u0644\u0645\u0637\u064a\u0631\u064a",
+      "price": 199.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 33.4,
-      "tenure": 65,
-      "inactive_days": 4,
-      "week_actions": 0,
-      "cum_actions": 1,
-      "actions_30d": 0
+      "churn_pct": 33.3,
+      "tenure": 30,
+      "inactive_days": 1,
+      "week_actions": 1,
+      "cum_actions": 15,
+      "actions_30d": 4
     },
     {
       "name": "Sultan Asawaji",
       "price": 199.0,
       "risk_tier": "MEDIUM",
-      "churn_pct": 31.0,
-      "tenure": 22,
-      "inactive_days": 2,
+      "churn_pct": 30.8,
+      "tenure": 23,
+      "inactive_days": 0,
       "week_actions": 3,
       "cum_actions": 4,
       "actions_30d": 4
     },
     {
-      "name": "Naem Ismael",
-      "price": 149.0,
-      "risk_tier": "WATCH",
-      "churn_pct": 28.6,
-      "tenure": 90,
-      "inactive_days": 3,
-      "week_actions": 0,
-      "cum_actions": 8,
-      "actions_30d": 0
-    },
-    {
       "name": "Mohammad Taha",
       "price": 149.0,
       "risk_tier": "WATCH",
-      "churn_pct": 26.8,
-      "tenure": 67,
+      "churn_pct": 27.6,
+      "tenure": 68,
       "inactive_days": 0,
       "week_actions": 1,
-      "cum_actions": 99,
+      "cum_actions": 100,
       "actions_30d": 18
     },
     {
-      "name": "Haneen Deeb",
+      "name": "Usman Patel",
+      "price": 129.0,
+      "risk_tier": "WATCH",
+      "churn_pct": 25.9,
+      "tenure": 123,
+      "inactive_days": 18,
+      "week_actions": 0,
+      "cum_actions": 30,
+      "actions_30d": 0
+    },
+    {
+      "name": "Naem Ismael",
       "price": 149.0,
       "risk_tier": "WATCH",
-      "churn_pct": 26.3,
-      "tenure": 113,
-      "inactive_days": 20,
+      "churn_pct": 25.5,
+      "tenure": 91,
+      "inactive_days": 4,
       "week_actions": 0,
-      "cum_actions": 1,
+      "cum_actions": 8,
       "actions_30d": 0
     },
     {
       "name": "Jawad Khan",
       "price": 199.0,
       "risk_tier": "WATCH",
-      "churn_pct": 23.6,
-      "tenure": 10,
-      "inactive_days": 2,
+      "churn_pct": 25.3,
+      "tenure": 11,
+      "inactive_days": 3,
       "week_actions": 0,
       "cum_actions": 16,
       "actions_30d": 16
     },
     {
-      "name": "Usman Patel",
-      "price": 129.0,
+      "name": "Haneen Deeb",
+      "price": 149.0,
+      "risk_tier": "WATCH",
+      "churn_pct": 25.2,
+      "tenure": 114,
+      "inactive_days": 21,
+      "week_actions": 0,
+      "cum_actions": 1,
+      "actions_30d": 0
+    },
+    {
+      "name": "Ibrahim Hassan",
+      "price": 149.0,
       "risk_tier": "WATCH",
       "churn_pct": 23.4,
-      "tenure": 122,
-      "inactive_days": 17,
+      "tenure": 112,
+      "inactive_days": 18,
       "week_actions": 0,
-      "cum_actions": 30,
+      "cum_actions": 21,
       "actions_30d": 0
     },
     {
       "name": "Lamyaa Alnuwaysir",
       "price": 199.0,
       "risk_tier": "WATCH",
-      "churn_pct": 23.3,
-      "tenure": 17,
-      "inactive_days": 3,
+      "churn_pct": 22.4,
+      "tenure": 18,
+      "inactive_days": 4,
       "week_actions": 0,
       "cum_actions": 5,
       "actions_30d": 3
@@ -697,97 +697,86 @@
       "name": "Abdulrahman Alqarni",
       "price": 199.0,
       "risk_tier": "WATCH",
-      "churn_pct": 23.1,
-      "tenure": 17,
+      "churn_pct": 21.3,
+      "tenure": 18,
       "inactive_days": 0,
       "week_actions": 0,
       "cum_actions": 1,
       "actions_30d": 1
     },
     {
-      "name": "Fahad Saleh",
+      "name": "Ali Alwadei",
       "price": 129.0,
       "risk_tier": "WATCH",
-      "churn_pct": 20.6,
-      "tenure": 116,
-      "inactive_days": 3,
+      "churn_pct": 20.3,
+      "tenure": 140,
+      "inactive_days": 0,
       "week_actions": 0,
-      "cum_actions": 3,
+      "cum_actions": 16,
       "actions_30d": 0
     },
     {
       "name": "Shaz Hussain",
       "price": 149.0,
       "risk_tier": "WATCH",
-      "churn_pct": 20.2,
-      "tenure": 6,
-      "inactive_days": 1,
+      "churn_pct": 19.5,
+      "tenure": 7,
+      "inactive_days": 2,
       "week_actions": 1,
       "cum_actions": 1,
-      "actions_30d": 1
-    },
-    {
-      "name": "Ibrahim Hassan",
-      "price": 149.0,
-      "risk_tier": "WATCH",
-      "churn_pct": 19.5,
-      "tenure": 111,
-      "inactive_days": 17,
-      "week_actions": 0,
-      "cum_actions": 21,
-      "actions_30d": 0
-    },
-    {
-      "name": "Muhammad Hunain Khurshid",
-      "price": 129.0,
-      "risk_tier": "WATCH",
-      "churn_pct": 19.3,
-      "tenure": 115,
-      "inactive_days": 17,
-      "week_actions": 0,
-      "cum_actions": 6,
-      "actions_30d": 0
-    },
-    {
-      "name": "Farrakh Baig",
-      "price": 99.92,
-      "risk_tier": "WATCH",
-      "churn_pct": 19.1,
-      "tenure": 115,
-      "inactive_days": 0,
-      "week_actions": 0,
-      "cum_actions": 8,
       "actions_30d": 1
     },
     {
       "name": "Ahmed Yaser",
       "price": 199.0,
       "risk_tier": "WATCH",
-      "churn_pct": 18.6,
-      "tenure": 9,
+      "churn_pct": 18.4,
+      "tenure": 10,
       "inactive_days": 0,
-      "week_actions": 8,
-      "cum_actions": 13,
+      "week_actions": 6,
+      "cum_actions": 12,
       "actions_30d": 12
     },
     {
-      "name": "Ali Alwadei",
+      "name": "Muhammad Hunain Khurshid",
       "price": 129.0,
       "risk_tier": "WATCH",
-      "churn_pct": 18.2,
-      "tenure": 139,
-      "inactive_days": 26,
+      "churn_pct": 18.1,
+      "tenure": 116,
+      "inactive_days": 18,
       "week_actions": 0,
-      "cum_actions": 16,
+      "cum_actions": 6,
       "actions_30d": 0
+    },
+    {
+      "name": "Fahad Saleh",
+      "price": 129.0,
+      "risk_tier": "WATCH",
+      "churn_pct": 17.3,
+      "tenure": 117,
+      "inactive_days": 4,
+      "week_actions": 0,
+      "cum_actions": 3,
+      "actions_30d": 0
+    },
+    {
+      "name": "Farrakh Baig",
+      "price": 99.92,
+      "risk_tier": "WATCH",
+      "churn_pct": 16.7,
+      "tenure": 116,
+      "inactive_days": 0,
+      "week_actions": 0,
+      "cum_actions": 8,
+      "actions_30d": 1
     },
     {
       "name": "Suliman Nasser",
       "price": 74.92,
       "risk_tier": "WATCH",
-      "churn_pct": 15.7,
-      "tenure": 6,
-      "inactive_days": 4,
+      "churn_pct": 15.9,
+      "tenure": 7,
+      "inactive_days": 0,
       "week_actions": 0,
       "cum_actions": 4,
       "actions_30d": 4
@@ -795,9 +784,9 @@
     {
       "name": "Nasra Hussein",
       "price": 100.0,
-      "risk_tier": "LOW",
-      "churn_pct": 13.2,
-      "tenure": 8,
+      "risk_tier": "WATCH",
+      "churn_pct": 15.7,
+      "tenure": 9,
       "inactive_days": 0,
       "week_actions": 0,
       "cum_actions": 2,
@@ -807,9 +796,31 @@
       "name": "Balal Nadeem",
       "price": 74.92,
       "risk_tier": "LOW",
-      "churn_pct": 9.8,
-      "tenure": 18,
-      "inactive_days": 8,
+      "churn_pct": 11.3,
+      "tenure": 19,
+      "inactive_days": 9,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
+      "name": "Abeer J",
+      "price": 74.92,
+      "risk_tier": "LOW",
+      "churn_pct": 8.8,
+      "tenure": 5,
+      "inactive_days": 2,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
+      "name": "Hamad Bin Saedan",
+      "price": 116.58,
+      "risk_tier": "LOW",
+      "churn_pct": 8.7,
+      "tenure": 90,
+      "inactive_days": 83,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
@@ -818,53 +829,42 @@
       "name": "Mohammad Alhunaif",
       "price": 99.0,
       "risk_tier": "LOW",
-      "churn_pct": 8.4,
-      "tenure": 107,
-      "inactive_days": 4,
+      "churn_pct": 7.9,
+      "tenure": 108,
+      "inactive_days": 5,
       "week_actions": 0,
       "cum_actions": 6,
-      "actions_30d": 0
-    },
-    {
-      "name": "Hamad Bin Saedan",
-      "price": 116.58,
-      "risk_tier": "LOW",
-      "churn_pct": 7.5,
-      "tenure": 89,
-      "inactive_days": 81,
-      "week_actions": 0,
-      "cum_actions": 0,
       "actions_30d": 0
     },
     {
       "name": "Osama Alrehaili",
       "price": 129.0,
       "risk_tier": "LOW",
-      "churn_pct": 6.9,
-      "tenure": 115,
-      "inactive_days": 27,
+      "churn_pct": 5.6,
+      "tenure": 116,
+      "inactive_days": 28,
       "week_actions": 0,
       "cum_actions": 1,
-      "actions_30d": 0
-    },
-    {
-      "name": "Mubarak Alasmi",
-      "price": 129.0,
-      "risk_tier": "LOW",
-      "churn_pct": 5.8,
-      "tenure": 123,
-      "inactive_days": 66,
-      "week_actions": 0,
-      "cum_actions": 0,
       "actions_30d": 0
     },
     {
       "name": "Mohammed Aldrees",
       "price": 99.0,
       "risk_tier": "LOW",
-      "churn_pct": 4.8,
-      "tenure": 129,
-      "inactive_days": 25,
+      "churn_pct": 3.3,
+      "tenure": 130,
+      "inactive_days": 26,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
+      "name": "Mubarak Alasmi",
+      "price": 129.0,
+      "risk_tier": "LOW",
+      "churn_pct": 3.1,
+      "tenure": 124,
+      "inactive_days": 67,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
@@ -873,15 +873,37 @@
       "name": "Mansour Alsadoun",
       "price": 0.0,
       "risk_tier": "LOW",
-      "churn_pct": 4.5,
-      "tenure": 107,
-      "inactive_days": 81,
+      "churn_pct": 2.3,
+      "tenure": 108,
+      "inactive_days": 82,
       "week_actions": 0,
       "cum_actions": 0,
       "actions_30d": 0
     },
     {
-      "name": "Maria M",
+      "name": "Ghazi Alanazi",
+      "price": 199.0,
+      "risk_tier": "N/A",
+      "churn_pct": null,
+      "tenure": 0,
+      "inactive_days": 0,
+      "week_actions": 8,
+      "cum_actions": 11,
+      "actions_30d": 11
+    },
+    {
+      "name": "Zainab Habib",
+      "price": 149.0,
+      "risk_tier": "N/A",
+      "churn_pct": null,
+      "tenure": 0,
+      "inactive_days": 0,
+      "week_actions": 9,
+      "cum_actions": 16,
+      "actions_30d": 9
+    },
+    {
+      "name": "Bahaa Haikal",
       "price": 199.0,
       "risk_tier": "N/A",
       "churn_pct": null,
@@ -892,174 +914,179 @@
       "actions_30d": 0
     },
     {
+      "name": "Osama AlYabsi",
+      "price": 199.0,
+      "risk_tier": "N/A",
+      "churn_pct": null,
+      "tenure": 1,
+      "inactive_days": 0,
+      "week_actions": 2,
+      "cum_actions": 2,
+      "actions_30d": 2
+    },
+    {
+      "name": "Maria M",
+      "price": 199.0,
+      "risk_tier": "N/A",
+      "churn_pct": null,
+      "tenure": 1,
+      "inactive_days": 0,
+      "week_actions": 0,
+      "cum_actions": 0,
+      "actions_30d": 0
+    },
+    {
       "name": "Hamdan Dar",
       "price": 149.0,
       "risk_tier": "N/A",
       "churn_pct": null,
-      "tenure": 3,
-      "inactive_days": 2,
+      "tenure": 5,
+      "inactive_days": 3,
       "week_actions": 0,
       "cum_actions": 4,
       "actions_30d": 2
-    },
-    {
-      "name": "Abeer J",
-      "price": 74.92,
-      "risk_tier": "N/A",
-      "churn_pct": null,
-      "tenure": 4,
-      "inactive_days": 1,
-      "week_actions": 0,
-      "cum_actions": 0,
-      "actions_30d": 0
     }
   ],
   "zombies": [
     {
       "name": "Hamad Bin Saedan",
       "price": 116.58,
-      "inactive_days": 81,
+      "inactive_days": 83,
       "total_actions": 0
     },
     {
       "name": "Mansour Alsadoun",
       "price": 0.0,
-      "inactive_days": 81,
+      "inactive_days": 82,
       "total_actions": 0
     },
     {
       "name": "Mubarak Alasmi",
       "price": 129.0,
-      "inactive_days": 66,
+      "inactive_days": 67,
       "total_actions": 0
     },
     {
       "name": "Mohanad Alzahrani",
       "price": 169.0,
-      "inactive_days": 63,
+      "inactive_days": 64,
       "total_actions": 0
     },
     {
       "name": "Razan Alowayed",
       "price": 199.0,
-      "inactive_days": 59,
+      "inactive_days": 60,
       "total_actions": 0
     },
     {
       "name": "Sultan Alghamdi",
       "price": 149.0,
-      "inactive_days": 42,
+      "inactive_days": 43,
       "total_actions": 2
     },
     {
       "name": "Varad Kshirsagar",
       "price": 199.0,
-      "inactive_days": 27,
+      "inactive_days": 28,
       "total_actions": 0
     },
     {
       "name": "Osama Alrehaili",
       "price": 129.0,
-      "inactive_days": 27,
+      "inactive_days": 28,
       "total_actions": 1
-    },
-    {
-      "name": "Ali Alwadei",
-      "price": 129.0,
-      "inactive_days": 26,
-      "total_actions": 16
     },
     {
       "name": "Mohammed Aldrees",
       "price": 99.0,
-      "inactive_days": 25,
+      "inactive_days": 26,
       "total_actions": 0
-    },
-    {
-      "name": "Ahmed Aldawsari",
-      "price": 199.0,
-      "inactive_days": 21,
-      "total_actions": 6
     },
     {
       "name": "Haneen Deeb",
       "price": 149.0,
-      "inactive_days": 20,
+      "inactive_days": 21,
       "total_actions": 1
     },
     {
       "name": "Kamal Ibrahim",
       "price": 199.0,
-      "inactive_days": 19,
+      "inactive_days": 20,
       "total_actions": 0
     },
     {
       "name": "Sarah Alaoudah",
       "price": 149.0,
-      "inactive_days": 18,
+      "inactive_days": 19,
       "total_actions": 0
     },
     {
       "name": "Zainab Alotaibi",
       "price": 149.0,
-      "inactive_days": 17,
+      "inactive_days": 18,
       "total_actions": 4
     },
     {
       "name": "Ibrahim Hassan",
       "price": 149.0,
-      "inactive_days": 17,
+      "inactive_days": 18,
       "total_actions": 21
     },
     {
       "name": "Muhammad Hunain Khurshid",
       "price": 129.0,
-      "inactive_days": 17,
+      "inactive_days": 18,
       "total_actions": 6
     },
     {
       "name": "Usman Patel",
       "price": 129.0,
-      "inactive_days": 17,
+      "inactive_days": 18,
       "total_actions": 30
     },
     {
       "name": "Sarah Alajaji",
       "price": 199.0,
-      "inactive_days": 16,
+      "inactive_days": 17,
       "total_actions": 0
     },
     {
       "name": "Omar Bourich",
       "price": 199.0,
-      "inactive_days": 14,
+      "inactive_days": 15,
       "total_actions": 3
     },
     {
       "name": "Abdullah Aseri",
       "price": 199.0,
-      "inactive_days": 14,
+      "inactive_days": 15,
       "total_actions": 0
+    },
+    {
+      "name": "Muhammad Abbasi",
+      "price": 149.0,
+      "inactive_days": 14,
+      "total_actions": 1
     }
   ],
   "top_engaged": [
     {
       "name": "Abdurahman Abukar",
-      "total_actions": 13069,
-      "last30d": 610,
+      "total_actions": 13038,
+      "last30d": 607,
       "paying": false,
       "price": 0.0
     },
     {
       "name": "Fahad Habib",
-      "total_actions": 735,
-      "last30d": 62,
+      "total_actions": 738,
+      "last30d": 61,
       "paying": false,
       "price": 0.0
     },
     {
       "name": "Mujahid Alsulami",
-      "total_actions": 165,
+      "total_actions": 166,
       "last30d": 55,
       "paying": false,
       "price": 0.0
@@ -1073,22 +1100,29 @@
     },
     {
       "name": "Mohammad Taha",
-      "total_actions": 99,
+      "total_actions": 100,
       "last30d": 18,
       "paying": true,
       "price": 149.0
     },
     {
       "name": "Safwaan Mohmed",
-      "total_actions": 95,
-      "last30d": 17,
+      "total_actions": 98,
+      "last30d": 20,
       "paying": false,
       "price": 0.0
     },
     {
       "name": "Deemah AlHudaithi",
-      "total_actions": 77,
-      "last30d": 16,
+      "total_actions": 78,
+      "last30d": 17,
+      "paying": false,
+      "price": 0.0
+    },
+    {
+      "name": "Jalil Rahman",
+      "total_actions": 71,
+      "last30d": 52,
       "paying": false,
       "price": 0.0
     },
@@ -1100,20 +1134,6 @@
       "price": 133.0
     },
     {
-      "name": "Jalil Rahman",
-      "total_actions": 65,
-      "last30d": 47,
-      "paying": false,
-      "price": 0.0
-    },
-    {
-      "name": "Jerry Rawlings M",
-      "total_actions": 56,
-      "last30d": 0,
-      "paying": false,
-      "price": 0.0
-    },
-    {
       "name": "Mo Saeed",
       "total_actions": 50,
       "last30d": 5,
@@ -1121,16 +1141,23 @@
       "price": 0.0
     },
     {
-      "name": "Mohammed Mahed",
-      "total_actions": 46,
+      "name": "Jerry Rawlings M",
+      "total_actions": 49,
       "last30d": 0,
       "paying": false,
       "price": 0.0
     },
     {
       "name": "Fedor Kharlamov",
+      "total_actions": 47,
+      "last30d": 10,
+      "paying": false,
+      "price": 0.0
+    },
+    {
+      "name": "Mohammed Mahed",
       "total_actions": 46,
-      "last30d": 9,
+      "last30d": 0,
       "paying": false,
       "price": 0.0
     },
@@ -1152,21 +1179,21 @@
   "free_upsell": [
     {
       "name": "Abdurahman Abukar",
-      "total_actions": 13069,
-      "last30d": 610,
+      "total_actions": 13038,
+      "last30d": 607,
       "posts": 1,
-      "streak": 364
+      "streak": 358
     },
     {
       "name": "Fahad Habib",
-      "total_actions": 735,
-      "last30d": 62,
+      "total_actions": 738,
+      "last30d": 61,
       "posts": 110,
       "streak": 51
     },
     {
       "name": "Mujahid Alsulami",
-      "total_actions": 165,
+      "total_actions": 166,
       "last30d": 55,
       "posts": 2,
       "streak": 5
@@ -1180,31 +1207,24 @@
     },
     {
       "name": "Safwaan Mohmed",
-      "total_actions": 95,
-      "last30d": 17,
+      "total_actions": 98,
+      "last30d": 20,
       "posts": 15,
-      "streak": 4
+      "streak": 5
     },
     {
       "name": "Deemah AlHudaithi",
-      "total_actions": 77,
-      "last30d": 16,
+      "total_actions": 78,
+      "last30d": 17,
       "posts": 4,
       "streak": 4
     },
     {
       "name": "Jalil Rahman",
-      "total_actions": 65,
-      "last30d": 47,
+      "total_actions": 71,
+      "last30d": 52,
       "posts": 2,
-      "streak": 7
-    },
-    {
-      "name": "Jerry Rawlings M",
-      "total_actions": 56,
-      "last30d": 0,
-      "posts": 11,
-      "streak": 2
+      "streak": 8
     },
     {
       "name": "Mo Saeed",
@@ -1214,18 +1234,25 @@
       "streak": 4
     },
     {
+      "name": "Jerry Rawlings M",
+      "total_actions": 49,
+      "last30d": 0,
+      "posts": 11,
+      "streak": 2
+    },
+    {
+      "name": "Fedor Kharlamov",
+      "total_actions": 47,
+      "last30d": 10,
+      "posts": 0,
+      "streak": 3
+    },
+    {
       "name": "Mohammed Mahed",
       "total_actions": 46,
       "last30d": 0,
       "posts": 1,
       "streak": 5
-    },
-    {
-      "name": "Fedor Kharlamov",
-      "total_actions": 46,
-      "last30d": 9,
-      "posts": 0,
-      "streak": 3
     },
     {
       "name": "Abdulrahman Haider",
@@ -1250,8 +1277,8 @@
     },
     {
       "name": "Mohamed Adan",
-      "total_actions": 32,
-      "last30d": 0,
+      "total_actions": 33,
+      "last30d": 1,
       "posts": 9,
       "streak": 3
     },
@@ -1264,8 +1291,8 @@
     },
     {
       "name": "Zakia Velox",
-      "total_actions": 28,
-      "last30d": 6,
+      "total_actions": 29,
+      "last30d": 7,
       "posts": 9,
       "streak": 3
     },
@@ -1333,9 +1360,9 @@
       "rate": 40.0
     },
     "$149": {
-      "count": 47,
+      "count": 48,
       "churned": 27,
-      "rate": 57.4
+      "rate": 56.2
     },
     "$150": {
       "count": 1,
@@ -1348,9 +1375,9 @@
       "rate": 42.9
     },
     "$199": {
-      "count": 51,
+      "count": 54,
       "churned": 12,
-      "rate": 23.5
+      "rate": 22.2
     },
     "$999": {
       "count": 1,
@@ -1361,66 +1388,66 @@
   "ml_data": {
     "tiers": {
       "HIGH": {
-        "count": 26,
-        "revenue": 4864.0
+        "count": 24,
+        "revenue": 4516.0
       },
       "MEDIUM": {
-        "count": 16,
-        "revenue": 2875.0
+        "count": 17,
+        "revenue": 3024.0
       },
       "WATCH": {
-        "count": 15,
-        "revenue": 2231.84
+        "count": 16,
+        "revenue": 2331.84
       },
       "LOW": {
         "count": 8,
-        "revenue": 747.5
+        "revenue": 722.4200000000001
       }
     },
-    "expected_loss": 4514.48,
-    "model_auc": 0.5706,
+    "expected_loss": 4417.19,
+    "model_auc": 0.5286,
     "feature_importance": [
       {
-        "feature": "price_vs_avg",
-        "value": 0.0782
+        "feature": "weekly_slope",
+        "value": 0.0789
       },
       {
-        "feature": "weekly_slope",
-        "value": 0.0719
+        "feature": "price_vs_avg",
+        "value": 0.0733
       },
       {
         "feature": "monthly_price",
-        "value": 0.0689
+        "value": 0.0715
       },
       {
         "feature": "days_since_peak",
-        "value": 0.0501
+        "value": 0.0503
       },
       {
         "feature": "peak_position_pct",
-        "value": 0.0484
-      },
-      {
-        "feature": "mean_gap",
-        "value": 0.0479
+        "value": 0.0501
       },
       {
         "feature": "inactive_streak",
-        "value": 0.0461
+        "value": 0.0491
       },
       {
-        "feature": "engagement_rate",
-        "value": 0.0453
-      },
-      {
-        "feature": "total_posts",
-        "value": 0.0448
+        "feature": "mean_gap",
+        "value": 0.0476
       },
       {
         "feature": "first_7d_actions",
-        "value": 0.0426
+        "value": 0.0468
+      },
+      {
+        "feature": "engagement_rate",
+        "value": 0.0449
+      },
+      {
+        "feature": "actions_per_active_day",
+        "value": 0.0406
       }
     ]
   },
-  "updated_at": "2026-04-26 07:21 UTC"
+  "updated_at": "2026-04-27 08:11 UTC"
 }
